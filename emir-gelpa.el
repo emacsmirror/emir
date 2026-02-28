@@ -133,7 +133,8 @@
         ;; `doc-files' is not relevant for us.
         ;; `maintainer' is used for a single package.
         ;; `manual-sync' is not relevant for us.
-        (unless (memq slot '(doc-files maintainer manual-sync))
+        ;; `pdf' is not relevant for us.
+        (unless (memq slot '(doc-files maintainer manual-sync pdf))
           (eieio-oset rcp slot value))))
     (cond ((epkg name)
            (oset rcp epkg-package name))
