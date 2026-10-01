@@ -6,3 +6,4 @@ should be using instead.
 
 #+html: <br><br>
 #+html: <a href="https://github.com/emacscollective/emir/actions/workflows/compile.yml"><img alt="Compile" src="https://github.com/emacscollective/emir/actions/workflows/compile.yml/badge.svg"/></a>
+#+html: <a href="https://emacsair.me/human"><img alt="human made" src="https://emacsair.me/assets/badges/human.svg"/></a>
