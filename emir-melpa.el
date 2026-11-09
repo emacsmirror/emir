@@ -44,9 +44,9 @@
                   (transient-arg-value "--all" args))))
     (when (transient-arg-value "--fetch" args)
       (message "Fetching Melpa recipes...")
-      (magit-git "checkout" "master")
+      (magit-git "checkout" "main")
       (magit-git "clean" "-fdx" "recipes")
-      (magit-git "pull" "--ff-only" "origin" "master")
+      (magit-git "pull" "--ff-only" "origin" "main")
       (message "Fetching Melpa recipes...done"))
     (message "Importing Melpa recipes...")
     (let* ((recipes (cl-remove-if
